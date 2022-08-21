@@ -2,7 +2,7 @@
     padding: 0px;
     margin:  0px;
 }
-/* INICIO */
+header {
 
 box-sizing: border-box;
 
@@ -12,7 +12,7 @@ height: 3197px;
 
 background: #FFFFFF;
 border: 1px solid #000000;
-
+}
 
 /* footer */
 
