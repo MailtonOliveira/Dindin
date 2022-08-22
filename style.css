@@ -20,7 +20,7 @@ header {
     margin: 0 5%;
 }
 
-nav {
+.cima {
     display: flex;
     align-items: center;
     gap: 42px;
