@@ -1,8 +1,10 @@
 * {
     padding: 0px;
-    margin:  0px;
+    margin: 0px;
     font-family: 'ubuntu';
+    font-style: normal;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -11,7 +13,6 @@ header {
     height: 1%;
     left: 0px;
     top: 0px;
-    
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
@@ -36,4 +37,52 @@ header {
 nav a {
     text-decoration: none;
     color: #ffffff;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 207px;
+    left: 0%;
+    top: 0%;
+    background: #419488;
+}
+
+.baixo {
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+    display: flex;
+    flex-direction: column;
+    text-transform: lowercase;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.botoes {
+    margin-right: 5%;
+}
+.botoes a {
+    text-decoration: none;
+    color: #FFFFFF;
+    Width: 289px;
+    Height: 51px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 14px;
+    margin: 13px;
 }
