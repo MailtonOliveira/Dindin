@@ -40,13 +40,14 @@ nav a {
 }
 
 footer {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 207px;
     left: 0%;
-    top: 0%;
+    top: 100%;
     background: #419488;
 }
 
@@ -65,9 +66,11 @@ footer {
     line-height: 23px;
     color: #FFFFFF;
 }
+
 .botoes {
     margin-right: 5%;
 }
+
 .botoes a {
     text-decoration: none;
     color: #FFFFFF;
