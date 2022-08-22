@@ -92,20 +92,23 @@ footer {
 
 .banner {
     display: flex;
+    align-items: center;
+
     margin: 35vh 30vh;
-    
+
 }
 
 .texto-banner {
+
     width: 488px;
     height: 386px;
     left: 206px;
     top: 242px;
-    gap: 20px;
-    padding: 20px;
+
 }
 
 .texto-banner h2 {
+
     color: #FF4081;
     font-weight: 700;
     font-size: 60px;
@@ -113,13 +116,18 @@ footer {
 }
 
 .texto-banner p {
+    text-align: left;
+    margin: 19px auto 46px auto;
     color: #555555;
     font-weight: 400;
     font-size: 27px;
     line-height: 31px;
+
+
 }
 
 .texto-banner a {
+    text-align: justify;
     border: 2px solid #FF4081;
     border-radius: 62px;
     text-decoration: none;
@@ -127,6 +135,6 @@ footer {
     font-size: 27px;
     line-height: 31px;
     color: #FF4081;
-    padding: 14px;
-    margin: 13px;
+    padding: 8px 26px;
+    
 }
