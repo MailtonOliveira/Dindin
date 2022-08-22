@@ -1,12 +1,14 @@
 * {
     padding: 0px;
     margin:  0px;
+    font-family: 'ubuntu';
 }
 header {
     display: flex;
     align-items: center;
-    width: 1440px;
-    height: 117px;
+    justify-content: space-between;
+    width: 100%;
+    height: 1%;
     left: 0px;
     top: 0px;
     
@@ -18,3 +20,20 @@ header {
     margin: 0 5%;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    height: 48px;
+    cursor: pointer;
+    margin-right: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
