@@ -89,17 +89,19 @@ footer {
     margin: 13px;
 }
 
+section {
+    margin: 35vh 30vh;
 
+}
 .banner {
     display: flex;
-    align-items: center;
-
-    margin: 35vh 30vh;
+    padding: 0 39px;
+  
 
 }
 
 .texto-banner {
-
+    
     width: 488px;
     height: 386px;
     left: 206px;
