@@ -144,8 +144,6 @@ section {
 
 /* cursos */ 
 
-
-
 div.titulo1 {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -214,4 +212,30 @@ div.cursos a {
     border-radius: 62px;
     padding: 14px;
     margin: 5% 0;
+}
+
+/* Pagina Cursos 1 */
+
+div.titulo2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    display: flex;
+    margin: 10% 15%;
+    height: 1%;
+
+}
+div.titulo2 div {
+    flex-direction: column;
+}
+div.titulo2 h1 {
+    flex-direction: column;
+    margin: 0;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FF4081;
+}
+
+div.titulo2 img {
+    display: flex;
+    flex-direction: initial;
 }
