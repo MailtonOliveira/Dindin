@@ -92,25 +92,30 @@ footer {
 section {
     margin: 35vh 30vh;
 
+
+
 }
+
 .banner {
     display: flex;
-    padding: 0 39px;
-  
+    justify-content: space-between;
+
+
+
 
 }
 
 .texto-banner {
-    
-    width: 488px;
-    height: 386px;
-    left: 206px;
-    top: 242px;
+    text-align: left;
+
 
 }
 
 .texto-banner h2 {
-
+    width: 488px;
+    height: 216px;
+    left: 206px;
+    top: 242px;
     color: #FF4081;
     font-weight: 700;
     font-size: 60px;
@@ -138,5 +143,5 @@ section {
     line-height: 31px;
     color: #FF4081;
     padding: 8px 26px;
-    
+
 }
