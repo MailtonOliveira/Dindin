@@ -279,6 +279,8 @@ div.aulas p {
     
 section {
     display: flex;
+    margin-left: 20vh;
+    
 }
 
 .contato{
@@ -289,9 +291,19 @@ section {
 }
 .contato h1{
     color: #FF4081;
+    left: 0%;
+    right: 68.95%;
+    top: 0%;
+    bottom: 89.02%;
+    
+
+
+
 }
 div .contato{
-    justify-content: flex-start;
+    justify-content:space-around;
+    
+
 }
 #nome{
     box-sizing: border-box;
@@ -332,3 +344,8 @@ div .contato{
     max-width: 15vh;
 
 }
+section div img{
+   width: 350px;
+   
+}
+
