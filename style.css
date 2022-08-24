@@ -152,9 +152,10 @@ section.cursos-index {
 .cursos-index {
 
     display: flex;
+    align-content: space-between;
     flex-basis: 100%;
     width: 344px;
-    padding: 50%;
+    
 
 }
 
