@@ -290,18 +290,21 @@ section {
 
 }
 .contato h1{
+    font-weight: 700;
     color: #FF4081;
     left: 0%;
     right: 68.95%;
     top: 0%;
     bottom: 89.02%;
-    
+    margin-top: 20%;
+    margin-bottom:7%;
 
 
 
 }
 div .contato{
     justify-content:space-around;
+    
     
 
 }
@@ -312,7 +315,9 @@ div .contato{
     border-radius: 7px;
     position:0.6% 0% 21.48% 70.88%;
     margin-bottom: 2%;
-    max-width: 50vh;
+    padding: 1%;
+    width: 493px;
+    width: 60vh;
     
 }
 
@@ -322,30 +327,52 @@ div .contato{
     border-radius: 7px;
     position:0.6% 0% 21.48% 70.88%;
     margin-bottom: 2%;
-    max-width: 50vh;
+    width: 490px;
+    padding: 1%;
+    width: 59vh;
 }
 
 #mensagem{
+    width: 493px;
+    height: 193px;
+    top:183px;
+    left:3px;
     position: 0.6% 0% 21.68% 10.26%;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
     margin-bottom: 2%;
-    max-width: 50vh;
+    width: 60vh;
+    
 }
 .botao{
+    height: 32px;
+    width: 108px;
+    left: 3px;
+    top: 391px;
+
+
+    
+
     position: 0.6% 77.62% 93.32% -0.95%;
     color: #FFFFFF;
     background-color: #FF4081;
     border-radius: 50px;
     border: none;
     padding:1%;
-    max-width: 15vh;
+    max-width: 14vh;
 
 }
 section div img{
-   width: 350px;
+   width: 444px;
+   height: 444px;
+   left: 883px;
+   top:199px;
+   margin-left: 57vh;
+   margin-top: 5%;
+   max-width: 60%;
+
    
 }
 
