@@ -180,7 +180,7 @@ div.cursos img {
     bottom: 45.25%;
 }
 
-div.cursos h2 {
+div.cursos h4 {
     flex-direction: column;
     font-weight: 700;
     font-size: 35px;
@@ -194,6 +194,7 @@ div.cursos p {
     font-size: 18px;
     line-height: 21px;
 }
+
 div.cursos a {
     background-color: #419488;
     text-decoration: none;
@@ -238,4 +239,28 @@ div.titulo2 h1 {
 div.titulo2 img {
     display: flex;
     flex-direction: initial;
+}
+
+div.aulas {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+div.aulas iframe {
+   margin: 0 10%; 
+}
+
+div.aulas h2 {
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+div.aulas p {
+    margin: 0 25% 0 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
 }
