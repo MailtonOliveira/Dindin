@@ -261,8 +261,6 @@ div.aulas h2 {
 div.aulas p {
     margin: 0 25% 0 0;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    align-items: center;
-    color: #000000;
+    font-size: 18px;
+    line-height: 21px;
 }
