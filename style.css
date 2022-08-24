@@ -269,6 +269,9 @@ div.aulas p {
 /* contato */
 
     
+section {
+    display: flex;
+}
 
 .contato{
     display: flex;
@@ -319,12 +322,5 @@ div .contato{
     border: none;
     padding:1%;
     max-width: 15vh;
-
-}
-
-.ilustra-contato{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
 
 }
