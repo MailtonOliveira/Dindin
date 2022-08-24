@@ -226,7 +226,7 @@ div.titulo2 {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    margin: 10% 0% 10% 15%;
+    margin: 10% 10%;
     height: 1%;
 
 }
@@ -235,14 +235,17 @@ div.titulo2 h1 {
     flex-direction: column;
     margin: 0;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 55px;
+    line-height: 63px;
     color: #FF4081;
 }
-section.curso1-titulo img {
-    Width: 380px;
-    Height: 381px;
-    margin: 0;
+.img-titulo {
     display: flex;
+    flex-direction: row;
+    margin: 10% 10%;
+    Width: 150%;
+    Height: 150%;
+
 }
 
 
