@@ -264,3 +264,82 @@ div.aulas p {
     font-size: 18px;
     line-height: 21px;
 }
+
+/* contato */
+
+    
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.contato h1{
+    color: #FF4081;
+}
+div .contato{
+    justify-content: flex-start;
+}
+#nome{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    position:0.6% 0% 21.48% 70.88%;
+    margin-bottom: 2%;
+    max-width: 50vh;
+    
+}
+
+#email{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    position:0.6% 0% 21.48% 70.88%;
+    margin-bottom: 2%;
+    max-width: 50vh;
+}
+
+#mensagem{
+    position: 0.6% 0% 21.68% 10.26%;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    margin-bottom: 2%;
+    max-width: 50vh;
+}
+.botao{
+    position: 0.6% 77.62% 93.32% -0.95%;
+    color: #FFFFFF;
+    background-color: #FF4081;
+    border-radius: 50px;
+    border: none;
+    padding:1%;
+    max-width: 15vh;
+
+}
+
+.ilustra-contato{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+    
+ 
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
