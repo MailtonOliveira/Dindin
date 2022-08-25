@@ -215,21 +215,28 @@ section.cursos-index {
     height: 270px;
 }
 
-section.depoiment {
+section.depo {
     padding: 6.85em 8em;
 
 }
-section.depoiment h2 {
+section.depo h2 {
     font-family: 'Nunito';
     font-weight: 700;
     font-size: 37px;
     line-height: 50px;
     color: #009688;
-    padding-bottom: 78px;
+}
+.depo {
+    display: flex;
+    
+    align-content: space-between;
+    
+
 }
 
 
 .depo div {
+    
     gap: 10px;
     text-align: left;
     font-family: 'Nunito';
@@ -237,11 +244,6 @@ section.depoiment h2 {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-}
-
-.depo {
-    display: flex;
-    
 }
 
 /* cursos */
@@ -403,8 +405,7 @@ div.aulas p {
 section.contato {
     display: flex;
     margin-left: 20vh;
-    margin: 8em 13em;
-    
+    margin: 8em 13em
 
 }
 
@@ -422,7 +423,7 @@ div.contato {
     right: 68.95%;
     top: 0%;
     bottom: 89.02%;
-    
+    margin-bottom: 7%;
 
 }
 
@@ -431,30 +432,27 @@ div .contato {
 }
 
 #nome {
-    color:#58555D;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
     margin-bottom: 2%;
-    padding: 2.0%;
+    padding: 1%;
     width: 60vh;
 
 }
 
 #email {
-    color:#58555D;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
-    margin-bottom: 2.5%;
-    padding: 2.0%;
+    margin-bottom: 2%;
+    padding: 1%;
     width: 60vh;
 }
 
 #mensagem {
-    color:#58555D;
     height: 193px;
     top: 183px;
     left: 3px;
@@ -464,7 +462,6 @@ div .contato {
     border-radius: 7px;
     margin-bottom: 2%;
     width: 60vh;
-    padding: 2.5%;
 
 }
 
@@ -485,10 +482,6 @@ div .contato {
 
 }
 
-.contato img{
-    padding: 201px;
-    width: 25em;
-    height: 25em;
-    align-items: flex-start;
-    color: ;
+.contato img {
+    
 }
