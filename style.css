@@ -402,7 +402,8 @@ div.aulas p {
 section.contato {
     display: flex;
     margin-left: 20vh;
-    margin: 8em 13em
+    margin: 8em 13em;
+    
 
 }
 
@@ -429,6 +430,7 @@ div .contato {
 }
 
 #nome {
+    color:#58555D;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
@@ -440,6 +442,7 @@ div .contato {
 }
 
 #email {
+    color:#58555D;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
@@ -450,6 +453,7 @@ div .contato {
 }
 
 #mensagem {
+    color:#58555D;
     height: 193px;
     top: 183px;
     left: 3px;
@@ -485,4 +489,5 @@ div .contato {
     width: 25em;
     height: 25em;
     align-items: flex-start;
+    color: ;
 }
