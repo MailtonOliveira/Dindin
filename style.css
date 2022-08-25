@@ -409,7 +409,7 @@ section.contato {
 
 }
 
-.contato {
+div.contato {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -423,7 +423,6 @@ section.contato {
     right: 68.95%;
     top: 0%;
     bottom: 89.02%;
-    margin-top: 20%;
     margin-bottom: 7%;
 
 }
