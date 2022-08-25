@@ -339,7 +339,7 @@ div.aulas p {
 /* contato */
 
 
-section-contato {
+section.contato {
     display: flex;
     margin-left: 20vh;
 
