@@ -285,7 +285,7 @@ div.titulo2 h1 {
 .img-titulo {
     display: flex;
     flex-direction: row;
-    margin: 10% 10%;
+
     Width: 150%;
     Height: 150%;
 
@@ -298,11 +298,12 @@ div.aulas {
 }
 
 div.aulas iframe {
-    margin: 0 10%;
+    margin: 0 0 0 10%;
 }
 
 div.aulas h2 {
     flex-direction: column;
+    margin: 5% 5%;
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
@@ -310,7 +311,7 @@ div.aulas h2 {
 }
 
 div.aulas p {
-    margin: 0 25% 0 0;
+    margin: 5% 5%;
     font-weight: 300;
     font-size: 20px;
     line-height: 23px;
