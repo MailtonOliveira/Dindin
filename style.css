@@ -229,7 +229,6 @@ section.depo h2 {
 
 
 .depo div {
-    display:flex;  
     gap: 10px;
     text-align: left;
     font-family: 'Nunito';
@@ -237,6 +236,11 @@ section.depo h2 {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
+}
+
+.depo1 {
+    display: flex;
+    
 }
 
 /* cursos */
