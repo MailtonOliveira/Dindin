@@ -1,9 +1,13 @@
+/* CSS de todas as páginas */
+
 * {
     padding: 0px;
     max-width: 100%;
     font-family: 'ubuntu', 'nununti';
     font-style: normal;
 }
+
+/* banner superior de todas as paginas */
 
 header {
     display: flex;
@@ -16,9 +20,13 @@ header {
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
+/* imagem da empresa no banner superior */
+
 .logo {
     margin: 0 5%;
 }
+
+/* barra de navegação do banner do topo das paginas */ 
 
 .cima {
     display: flex;
@@ -38,6 +46,8 @@ nav a {
     color: #ffffff;
 }
 
+/* rodapé de todas as paginas */
+
 footer {
     display: flex;
     align-items: center;
@@ -47,6 +57,8 @@ footer {
     top: 100%;
     background: #419488;
 }
+
+/* navegação do rodapé */
 
 .baixo {
     left: 43.26%;
@@ -63,6 +75,8 @@ footer {
     line-height: 23px;
     color: #FFFFFF;
 }
+
+/* botões do rodapé */
 
 .botoes {
     margin-right: 5%;
@@ -86,6 +100,7 @@ footer {
     padding: 14px;
     margin: 13px;
 }
+/* Fim da configuração de todas a spáginas */
 
 section.banner {
     margin: 8em 13em;
