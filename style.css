@@ -200,6 +200,37 @@ section.cursos-index {
     height: 270px;
 }
 
+section.depo {
+    padding: 6.85em 8em;
+
+}
+section.depo h2 {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+}
+.depo {
+    display: flex;
+    
+    align-content: space-between;
+    
+
+}
+
+
+.depo div {
+    
+    gap: 10px;
+    text-align: left;
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
 /* cursos */
 
 div.titulo1 {
