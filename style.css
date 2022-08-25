@@ -467,6 +467,8 @@ div .contato {
 }
 
 .botao {
+
+    text-align: center;
     height: 32px;
     width: 108px;
     left: 3px;
