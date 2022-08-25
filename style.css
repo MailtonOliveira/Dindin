@@ -324,14 +324,14 @@ div.cursos a {
 
 
 section.curso1-titulo {
+    margin: 8em 13em;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 1%;
     left: 0px;
     top: 0px;
     align-items: center;
-    justify-content: space-between;
     height: 1%;
     left: 0px;
     top: 0px;
@@ -342,6 +342,7 @@ div.titulo2 {
     font-style: normal;
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin: 10% 5% 10% 10%;
     height: 1%;
 
@@ -357,6 +358,7 @@ div.titulo2 h1 {
 }
 
 .img-titulo {
+    justify-content: center;
     display: flex;
     margin: 10% 10% 10% 5%;
     Width: 150%;
@@ -370,6 +372,7 @@ div.titulo2 h1 {
 
 
 div.aulas {
+    justify-content: center;
     display: flex;
     margin-bottom: 10%;
 }
