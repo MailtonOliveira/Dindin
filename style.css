@@ -226,17 +226,10 @@ section.depo h2 {
     line-height: 50px;
     color: #009688;
 }
-.depo {
-    display: flex;
-    
-    align-content: space-between;
-    
-
-}
 
 
 .depo div {
-    
+    display:flex;  
     gap: 10px;
     text-align: left;
     font-family: 'Nunito';
