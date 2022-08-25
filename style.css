@@ -100,7 +100,7 @@ footer {
     padding: 14px;
     margin: 13px;
 }
-/* Fim da configuração de todas a spáginas */
+/* Fim da configuração de todas as páginas */
 
 section.banner {
     margin: 8em 13em;
@@ -322,8 +322,19 @@ div.cursos a {
 
 /* Pagina Cursos 1 */
 
+
 section.curso1-titulo {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 1%;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    height: 1%;
+    left: 0px;
+    top: 0px;
 }
 
 div.titulo2 {
@@ -331,7 +342,7 @@ div.titulo2 {
     font-style: normal;
     display: flex;
     flex-direction: column;
-    margin: 10% 10%;
+    margin: 10% 5% 10% 10%;
     height: 1%;
 
 }
@@ -347,10 +358,13 @@ div.titulo2 h1 {
 
 .img-titulo {
     display: flex;
-    flex-direction: row;
-
+    margin: 10% 10% 10% 5%;
     Width: 150%;
     Height: 150%;
+    left: 52.15%;
+    right: 21.46%;
+    top: 9.38%;
+    bottom: 72.49%;
 
 }
 
