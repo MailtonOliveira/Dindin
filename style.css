@@ -405,6 +405,7 @@ div.aulas p {
 section.contato {
     display: flex;
     margin-left: 20vh;
+    margin: 8em 13em
 
 }
 
@@ -425,15 +426,10 @@ section.contato {
     margin-top: 20%;
     margin-bottom: 7%;
 
-
-
 }
 
 div .contato {
     justify-content: space-around;
-
-
-
 }
 
 #nome {
@@ -441,31 +437,26 @@ div .contato {
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
-    position: 0.6% 0% 21.48% 70.88%;
     margin-bottom: 2%;
     padding: 1%;
-    width: 493px;
     width: 60vh;
 
 }
 
 #email {
+    box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
-    position: 0.6% 0% 21.48% 70.88%;
     margin-bottom: 2%;
-    width: 490px;
     padding: 1%;
-    width: 59vh;
+    width: 60vh;
 }
 
 #mensagem {
-    width: 493px;
     height: 193px;
     top: 183px;
     left: 3px;
-    position: 0.6% 0% 21.68% 10.26%;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
@@ -480,10 +471,6 @@ div .contato {
     width: 108px;
     left: 3px;
     top: 391px;
-
-
-
-
     position: 0.6% 77.62% 93.32% -0.95%;
     color: #FFFFFF;
     background-color: #FF4081;
@@ -494,14 +481,3 @@ div .contato {
 
 }
 
-.contato {
-    width: 444px;
-    height: 444px;
-    left: 883px;
-    top: 199px;
-    margin-left: 57vh;
-    margin-top: 5%;
-    max-width: 60%;
-
-
-}
