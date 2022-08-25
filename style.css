@@ -143,44 +143,27 @@ section.banner {
 }
 
 section.cursos-index {
-    width: 1440px;
-    height: 730px;
-    left: 0px;
-    top: 829px;
+    margin: 18vh 30vh;
+
+    
 }
-
 .cursos-index {
+    display:  flex;
+    align-content: center;
+    
+}
+.cursos-index div {
 
-    display: flex;
-    align-content: space-between;
-    flex-basis: 100%;
-    width: 344px;
+    padding: 0 2em;
     
 
+    
+
+
 }
 
-.curso1 {
-    width: 344px;
-    height: 504px;
-    left: 128px;
-    top: 938px;
-}
-
-.curso2 {
-
-    width: 293px;
-    height: 502px;
-    left: 593px;
-    top: 938px;
-}
-
-.curso3 {
-    width: 304px;
-    height: 502px;
-    left: 1007px;
-    top: 938px;
-
-
+.cursos-index div img{
+    height: 270px;
 }
 
 /* cursos */
@@ -321,7 +304,7 @@ div.aulas p {
 /* contato */
 
 
-section {
+section-contato {
     display: flex;
     margin-left: 20vh;
 
