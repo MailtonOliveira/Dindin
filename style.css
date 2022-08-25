@@ -434,7 +434,7 @@ div .contato {
     border: 1px solid #686868;
     border-radius: 7px;
     margin-bottom: 2%;
-    padding: 1%;
+    padding: 2.0%;
     width: 60vh;
 
 }
@@ -444,8 +444,8 @@ div .contato {
     background: #FFFFFF;
     border: 1px solid #686868;
     border-radius: 7px;
-    margin-bottom: 2%;
-    padding: 1%;
+    margin-bottom: 2.5%;
+    padding: 2.0%;
     width: 60vh;
 }
 
@@ -459,6 +459,7 @@ div .contato {
     border-radius: 7px;
     margin-bottom: 2%;
     width: 60vh;
+    padding: 2.5%;
 
 }
 
@@ -483,4 +484,5 @@ div .contato {
     padding: 201px;
     width: 25em;
     height: 25em;
+    align-items: flex-start;
 }
