@@ -29,7 +29,7 @@ header {
     margin: 0 5%;
 }
 
-/* barra de navegação do banner do topo das paginas */ 
+/* barra de navegação do banner do topo das paginas */
 
 .cima {
     display: flex;
@@ -103,6 +103,7 @@ footer {
     padding: 14px;
     margin: 13px;
 }
+
 /* Fim da configuração de todas as páginas */
 
 section.banner {
@@ -222,6 +223,7 @@ section.depoiment {
     padding: 6.85em 8em;
 
 }
+
 section.depoiment h2 {
     font-family: 'Nunito';
     font-weight: 700;
@@ -237,25 +239,27 @@ section.depoiment h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-    
-        
+
+
+
 }
+
 .depo div {
     width: 495px;
     display: flex;
     align-items: center;
     margin: 2em;
 
-       
+
 }
-.depo div p{
+
+.depo div p {
     width: 363px;
     height: 104px;
 
 }
 
-.depo p{
+.depo p {
     text-align: left;
     font-family: 'Nunito';
     font-weight: 300;
@@ -266,31 +270,76 @@ section.depoiment h2 {
 
 .depo img {
     width: 104px;
-    height: 104px;  
+    height: 104px;
 }
 
 section.blog-index {
     padding: 6.85em 8em;
-   
+    background-color: #e5e5e5;
+
 
 }
 
 section.blog-index h2 {
+    margin: 0 0 73px;
     font-weight: 700;
     font-size: 37px;
     line-height: 43px;
     color: #009688;
 }
+
 .blog {
+
     display: flex;
+    text-align: left;
+    justify-content: space-between;
+
 }
 
-.blog div img{
+.blog div {
     width: 319px;
-    height: 193px; 
+    height: 318px;
+}
+
+.blog h3 {
+
+    margin: 11px 0 0;
+    color: #009688;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+.blog p {
+    width: 319px;
+    height: 114px;
+    margin: 0;
+    color: #000000;
+
+}
+
+.blog div img {
+    width: 319px;
+    height: 193px;
     background-color: #c4c4c4;
 }
+section.blog-index div.bottum{
+    display: flex;
+    justify-content: center;
+    margin-top: 109px;
+}
+section.blog-index div a{
+    text-align: justify;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    padding: 8px 26px;
 
+}
 
 
 /* cursos */
@@ -370,6 +419,7 @@ hr.linha {
     border-top: 5px solid #c4c4c4;
     margin: 5% 5%;
 }
+
 main.cursos {
     margin-bottom: 10%;
 }
@@ -471,7 +521,7 @@ div .contato1 {
 }
 
 #nome {
-    color:#58555D;
+    color: #58555D;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
@@ -482,7 +532,7 @@ div .contato1 {
 }
 
 #email {
-    color:#58555D;
+    color: #58555D;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #686868;
@@ -493,7 +543,7 @@ div .contato1 {
 }
 
 #mensagem {
-    color:#58555D;
+    color: #58555D;
     height: 193px;
     top: 183px;
     left: 3px;
@@ -521,7 +571,7 @@ div .contato1 {
     max-width: 14vh;
 }
 
-.contato img{
+.contato img {
     margin-left: 20%;
     width: 100%;
     height: 100%;
@@ -538,6 +588,7 @@ section.post01 {
     font-family: 'Ubuntu';
     font-style: normal;
 }
+
 section.post01 h1 {
     align-self: center;
     font-weight: 500;
@@ -545,6 +596,7 @@ section.post01 h1 {
     line-height: 57px;
     color: #FF4081;
 }
+
 section.post01 p {
     text-align: justify;
     font-weight: 300;
@@ -553,12 +605,14 @@ section.post01 p {
     font-feature-settings: 'kern' off;
     color: #000000;
 }
+
 section.post01 h3 {
     font-weight: 500;
     font-size: 26px;
     line-height: 21px;
     color: #419488;
 }
+
 h2.post01 {
     text-align: center;
     margin-bottom: -5%;
@@ -583,6 +637,7 @@ section.devtitulo {
     font-family: 'Ubuntu';
     font-style: normal;
 }
+
 .devtitulo h1 {
     text-align: center;
     display: flex;
@@ -595,6 +650,7 @@ section.devtitulo {
     color: #FF4081;
 
 }
+
 .devtitulo p {
     text-align: center;
     display: flex;
@@ -605,19 +661,23 @@ section.devtitulo {
     font-size: 30px;
     line-height: 23px;
 }
+
 section.dev {
     display: flex;
 }
+
 section.dev img {
     margin: 0 10% 10%;
     height: 500px;
 }
+
 section.dev h2 {
     color: #FF4081;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
 }
+
 section.dev p {
     font-weight: 500;
     font-size: 25px;
@@ -631,17 +691,20 @@ section.blog-titulo {
     align-items: center;
     margin: 10%;
 }
+
 div.blog-titulo {
     font-family: 'Ubuntu';
     font-style: normal;
     margin: 5%;
 }
+
 div.blog-titulo h1 {
     font-weight: 700;
     font-size: 47px;
     line-height: 54px;
     color: #009688;
 }
+
 div.blog-titulo p {
     font-weight: 300;
     font-size: 20px;
@@ -650,19 +713,23 @@ div.blog-titulo p {
     align-items: center;
     color: #000000;
 }
+
 section.blog-post {
     display: flex;
     align-items: center;
     margin: 10%;
 }
+
 div.blog-post {
     flex-direction: column;
     margin: 0 5%;
 }
+
 div.blog-post img {
     height: 400px;
     align-self: center;
 }
+
 div.blog-post h2 a {
     font-weight: 500;
     font-size: 30px;
@@ -670,6 +737,7 @@ div.blog-post h2 a {
     color: #FF4081;
     text-decoration: none;
 }
+
 div.blog-post p {
     font-weight: 300;
     font-size: 17px;
