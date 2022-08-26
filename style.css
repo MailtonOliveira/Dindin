@@ -271,7 +271,7 @@ div.titulo1 {
     display: flex;
     text-transform: initial;
     flex-direction: column;
-    margin: 6% 5%;
+    margin: 10% 10%;
     height: 1%;
 
 }
@@ -295,7 +295,7 @@ div.cursos {
 }
 
 div.cursos img {
-    margin: 0 6% 8%;
+    margin: 0 6%;
     left: 7.78%;
     right: 65.83%;
     top: 38.91%;
@@ -334,14 +334,20 @@ div.cursos a {
     border: 2px solid #FFFFFF;
     border-radius: 62px;
     padding: 14px;
-    margin: 5% 0;
+}
+
+hr.linha {
+    border-top: 5px solid #c4c4c4;
+    margin: 5% 5%;
+}
+main.cursos {
+    margin-bottom: 10%;
 }
 
 /* Pagina Cursos 1 */
 
 
 section.curso1-titulo {
-    margin: 8em 13em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -391,7 +397,6 @@ div.titulo2 h1 {
 div.aulas {
     justify-content: center;
     display: flex;
-    margin-bottom: 10%;
 }
 
 div.aulas iframe {
