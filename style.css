@@ -403,7 +403,7 @@ section.contato {
     display: flex;
     margin-left: 20vh;
     margin: 8em 13em;
-    
+    align-items: center;
 
 }
 
@@ -421,6 +421,7 @@ div.contato {
     right: 68.95%;
     top: 0%;
     bottom: 89.02%;
+    
     
 
 }
@@ -485,9 +486,9 @@ div .contato {
 }
 
 .contato img{
-    padding: 201px;
+    padding-left: 140%;
     width: 25em;
     height: 25em;
     align-items: flex-start;
-    color: ;
+    
 }
