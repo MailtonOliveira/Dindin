@@ -241,6 +241,11 @@ section.depoiment h2 {
 
 .depo {
     display: flex;
+    justify-content: center;
+    
+}
+
+.depo1 {
     
 }
 
