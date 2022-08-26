@@ -232,6 +232,13 @@ section.depoiment h2 {
 }
 
 
+.depo {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        
+}
 .depo div {
     gap: 10px;
     text-align: left;
@@ -240,17 +247,20 @@ section.depoiment h2 {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-}
-
-.depo {
-    display: flex;
-    justify-content: center;
+    max-width: 50%;
     
 }
 
-.depo1 {
     
+
+.depo1 div.name {
+    max-width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
 }
+
+
 
 /* cursos */
 
