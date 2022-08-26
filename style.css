@@ -242,10 +242,10 @@ section.depoiment h2 {
         
 }
 .depo div {
-    padding: 90px;
     width: 495px;
     display: flex;
     align-items: center;
+    margin: 28px;
 
        
 }
@@ -271,7 +271,6 @@ section.depoiment h2 {
 }
 
 .depo p{
-    padding: 28px;
     text-align: left;
     font-family: 'Nunito';
     font-weight: 300;
