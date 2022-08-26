@@ -346,15 +346,10 @@ main.cursos {
 
 /* Pagina Cursos 1 */
 
-
 section.curso1-titulo {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1%;
-    left: 0px;
-    top: 0px;
-    align-items: center;
     height: 1%;
     left: 0px;
     top: 0px;
@@ -368,7 +363,6 @@ div.titulo2 {
     width: 100%;
     margin: 10% 5% 10% 10%;
     height: 1%;
-
 }
 
 div.titulo2 h1 {
@@ -390,9 +384,7 @@ div.titulo2 h1 {
     right: 21.46%;
     top: 9.38%;
     bottom: 72.49%;
-
 }
-
 
 div.aulas {
     justify-content: center;
@@ -423,19 +415,16 @@ div.aulas p {
 
 /* contato */
 
-
 section.contato {
     display: flex;
     margin: 8em 13em;
     align-items: center;
-
 }
 
 div.contato1 {
     max-width: 100%;
     flex-direction: column;
     justify-content: flex-start;
-
 }
 
 .contato1 h1 {
@@ -445,9 +434,6 @@ div.contato1 {
     right: 68.95%;
     top: 0%;
     bottom: 89.02%;
-    
-    
-
 }
 
 div .contato1 {
@@ -463,7 +449,6 @@ div .contato1 {
     margin-bottom: 2%;
     padding: 2.0%;
     width: 100%;
-
 }
 
 #email {
@@ -489,11 +474,9 @@ div .contato1 {
     margin-bottom: 2%;
     width: 100%;
     padding: 2.5%;
-
 }
 
 .botao {
-
     text-align: center;
     height: 32px;
     width: 108px;
@@ -506,7 +489,6 @@ div .contato1 {
     border: none;
     padding: 1%;
     max-width: 14vh;
-
 }
 
 .contato img{
@@ -514,7 +496,6 @@ div .contato1 {
     width: 100%;
     height: 100%;
     align-items: center;
-    
 }
 
 /* Pagina Post */
@@ -613,7 +594,55 @@ section.dev p {
     line-height: 21px;
 }
 
+/* Pagina Blog */
 
-
-    
-
+section.blog-titulo {
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+div.blog-titulo {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    margin: 5%;
+}
+div.blog-titulo h1 {
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+}
+div.blog-titulo p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+section.blog-post {
+    display: flex;
+    align-items: center;
+    margin: 10%;
+}
+div.blog-post {
+    flex-direction: column;
+    margin: 0 5%;
+}
+div.blog-post img {
+    height: 400px;
+    align-self: center;
+}
+div.blog-post h2 a {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+    text-decoration: none;
+}
+div.blog-post p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
