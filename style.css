@@ -269,6 +269,28 @@ section.depoiment h2 {
     height: 104px;  
 }
 
+section.blog-index {
+    padding: 6.85em 8em;
+   
+
+}
+
+section.blog-index h2 {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+}
+.blog {
+    display: flex;
+}
+
+.blog div img{
+    width: 319px;
+    height: 193px; 
+    background-color: #c4c4c4;
+}
+
 
 
 /* cursos */
