@@ -232,6 +232,16 @@ section.depoiment h2 {
 }
 
 
+.depo {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+
+        
+}
 .depo div {
     gap: 10px;
     text-align: left;
@@ -240,13 +250,10 @@ section.depoiment h2 {
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-}
-
-.depo {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
+    max-width: 50%;
     
+    
+
     
 }
 
