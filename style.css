@@ -2,7 +2,6 @@
 
 * {
     padding: 0px;
-    max-width: 100%;
     font-family: 'ubuntu', 'nununti';
     font-style: normal;
 }
@@ -407,20 +406,19 @@ div.aulas p {
 
 section.contato {
     display: flex;
-    margin-left: 20vh;
     margin: 8em 13em;
     align-items: center;
 
 }
 
-div.contato {
-    display: flex;
+div.contato1 {
+    max-width: 100%;
     flex-direction: column;
     justify-content: flex-start;
 
 }
 
-.contato h1 {
+.contato1 h1 {
     font-weight: 700;
     color: #FF4081;
     left: 0%;
@@ -432,7 +430,7 @@ div.contato {
 
 }
 
-div .contato {
+div .contato1 {
     justify-content: space-around;
 }
 
@@ -444,7 +442,7 @@ div .contato {
     border-radius: 7px;
     margin-bottom: 2%;
     padding: 2.0%;
-    width: 60vh;
+    width: 100%;
 
 }
 
@@ -456,7 +454,7 @@ div .contato {
     border-radius: 7px;
     margin-bottom: 2.5%;
     padding: 2.0%;
-    width: 60vh;
+    width: 100%;
 }
 
 #mensagem {
@@ -469,7 +467,7 @@ div .contato {
     border: 1px solid #686868;
     border-radius: 7px;
     margin-bottom: 2%;
-    width: 60vh;
+    width: 100%;
     padding: 2.5%;
 
 }
@@ -492,9 +490,9 @@ div .contato {
 }
 
 .contato img{
-    padding-left: 32em;
-    width: 25em;
-    height: 25em;
-    align-items: flex-start;
+    margin-left: 20%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
     
 }
