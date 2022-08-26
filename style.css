@@ -237,9 +237,6 @@ section.depoiment h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-    
-
         
 }
 .depo div {
@@ -252,9 +249,15 @@ section.depoiment h2 {
     color: #000000;
     max-width: 50%;
     
-    
+}
 
     
+
+.depo1 div.name {
+    max-width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
 
