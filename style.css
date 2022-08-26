@@ -512,6 +512,51 @@ div .contato1 {
     
 }
 
+/* Pagina Post */
+
+section.post01 {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding: 0%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+}
+section.post01 h1 {
+    align-self: center;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+}
+section.post01 p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+}
+section.post01 h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 21px;
+    color: #419488;
+}
+h2.post01 {
+    text-align: center;
+    margin-bottom: -5%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    background-color: #F7f7f7;
+}
+
 
 
     
