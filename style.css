@@ -245,26 +245,11 @@ section.depoiment h2 {
     width: 495px;
     display: flex;
     align-items: center;
-    margin: 28px;
+    margin: 2em;
 
        
 }
-.depo1 div p{
-    width: 363px;
-    height: 104px;
-
-}
-.depo2 div p{
-    width: 363px;
-    height: 104px;
-
-}
-.depo3 div p{
-    width: 363px;
-    height: 104px;
-
-}
-.depo4 div p{
+.depo div p{
     width: 363px;
     height: 104px;
 
