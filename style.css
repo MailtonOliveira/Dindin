@@ -237,28 +237,33 @@ section.depoiment h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
+    
         
 }
 .depo div {
-    gap: 10px;
+    padding: 30px 0px;
+    width: 495px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+
+       
+}
+
+.depo p{
+    padding: 28px;
     text-align: left;
     font-family: 'Nunito';
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
     color: #000000;
-    max-width: 50%;
-    
-    
 }
 
-
-    
-
-.depo1 div.name {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
+.depo img {
+    width: 104px;
+    height: 104px;  
 }
 
 
