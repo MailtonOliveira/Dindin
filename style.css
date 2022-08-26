@@ -557,6 +557,57 @@ h2.post01 {
     background-color: #F7f7f7;
 }
 
+/* página Desenvolvedores */
+
+section.devtitulo {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding: 0%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+}
+.devtitulo h1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+
+}
+.devtitulo p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 23px;
+}
+section.dev {
+    display: flex;
+}
+section.dev img {
+    margin: 0 10% 10%;
+    height: 500px;
+}
+section.dev h2 {
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+section.dev p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 21px;
+}
+
 
 
     
