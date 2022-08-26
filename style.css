@@ -215,16 +215,17 @@ section.cursos-index {
     height: 270px;
 }
 
-section.depo {
+section.depoiment {
     padding: 6.85em 8em;
 
 }
-section.depo h2 {
+section.depoiment h2 {
     font-family: 'Nunito';
     font-weight: 700;
     font-size: 37px;
     line-height: 50px;
     color: #009688;
+    padding-bottom: 78px;
 }
 
 
@@ -238,7 +239,7 @@ section.depo h2 {
     color: #000000;
 }
 
-.depo1 {
+.depo {
     display: flex;
     
 }
